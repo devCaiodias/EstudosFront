@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+        }
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        } 
+        
+        main {
+            display: grid;
+            margin: auto;
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        article{
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        article > h2 {
+            color: rgb(230, 47, 47);
+        }
+        footer {
+            text-align: center ;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main> 
+        <section id="Assuntos">
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticia sobro o br</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam iusto modi, voluptates ipsum facilis delectus id? Voluptate assumenda praesentium odit? Iusto ducimus quod numquam ipsam quis, tempora recusandae temporibus.</p>
+                <aside>
+                    <p>Livro escrito por pessoa</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>DevYuta</p>
+    </footer>
+</body>
+</html>
