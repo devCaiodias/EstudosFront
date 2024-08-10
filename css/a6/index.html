@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peseudo-class</title>
+</head> 
+<style>
+    div {
+        display: inline-block;
+        background-color: lightgrey;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+    }
+
+    div > p {
+        display: none;
+    }
+
+    div:hover > p {
+        display: block;
+        background-color: black;
+        color: white;
+    }
+
+    #d1 {
+        background-color: rgb(255, 0, 242);
+    }
+
+    #d2 {
+        background-color: rgb(255, 196, 0);
+    }
+
+    #d3 {
+        background-color: rgb(17, 0, 255);
+    }
+
+    #d1:hover {
+        background-color: rgb(30, 255, 0);
+    }
+    
+    #d2:hover {
+        background-color: rgb(255, 0, 0);
+    }
+
+    #d3:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+</style>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <div>
+        <p>Texto excondifo</p>
+    </div>
+</body>
+</html>
