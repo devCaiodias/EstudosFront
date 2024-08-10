@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
