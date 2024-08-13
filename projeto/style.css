@@ -43,8 +43,8 @@ header > nav > a {
 }
 
 main {
-    width: 900px;
-    height: 100%;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     background-color: #A62B1F;
     padding: 20px;
@@ -61,6 +61,7 @@ main > p {
     text-indent: 30px;
     margin: 10px 0 10px 0px;
     font-size: 18px;
+    text-align: justify;
 }
 
 main > h2 {
@@ -68,14 +69,47 @@ main > h2 {
     text-transform: uppercase;
 }
 
-main > div {
-    text-align: center;
+main > p > a {
+    text-decoration: none;
+    color: white;
+    background-color: #268b96;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.videoo {
+    background-color: #193C40;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    border-radius: 0%;
+
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.videoo > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 section {
+    min-width: 300px;
+    max-width: 1000px;
     background-color: #193C40;
     margin: 20px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 section > h3 {
@@ -88,6 +122,12 @@ section > p {
     text-indent: 30px;
     margin: 10px 0 10px 0px;
     font-size: 18px;
+    text-align: justify;
+}
+
+.videoo{
+    border-radius: 10px 10px 10px 10px;
+
 }
 
 section > ul {
@@ -95,21 +135,16 @@ section > ul {
     padding: 20px;
     margin: 0;
     color: white;
+    columns: 2;
 }
 
 section > ul > div {
     margin: auto;
 }
 
-.l1 {
-    color: #69bb18;
-    display: inline-block;
-}
-
-.l2 {
-    color: #f5b30c;
-    display: inline-block;
-    padding: 0px 0px 0px 300px;
+section > p > a {
+    text-decoration: none;
+    color: rosybrown;
 }
 
 footer {
