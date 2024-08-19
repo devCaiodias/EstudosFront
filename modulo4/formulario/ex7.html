@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="#" method="post" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+                
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Pais bom">
+                    <option value="Sp">Sao paulo</option>
+                    <option value="Sp">Sao paulo</option>
+                    <option value="Sp">Sao paulo</option>
+                </optgroup>
+
+                <optgroup label="Pais bonito">
+                    <option value="Rj">Rio de janeiro</option>
+                    <option value="MT">Mato grosso</option>
+                    <option value="Go">Goiais</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Adiministração</option>
+                <option value="cont">contador</option>
+                <option value="dev">Programador</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imesg">Mensagem: </label>
+            <textarea name="mensg" id="imesg" cols="30" rows="10">Sua Mensagem...</textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar1">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
