@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media print { /* Impressão*/
+    
+    body {
+        background-image: url(/modulo4/ex025/img/pacote-imagens-cap25/imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+    }
+    
+    main h1 {
+        margin: 10px;
+    }
+
+    img#impressora {
+        display: block;
+    }
+
+    img#plone {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet*/
+    body {
+        background-image: url(/modulo4/ex025/img/pacote-imagens-cap25/imagens/back-tablet.jpg);
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#plone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* Deskto*/
+    body {
+        background-image: url(/modulo4/ex025/img/pacote-imagens-cap25/imagens/back-pc.jpg);
+    }
+    
+    img#pc {
+        display: block;
+    }
+    
+    img#plone {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) { /* Grandes telas*/
+    body {
+        background-image: url(/modulo4/ex025/img/pacote-imagens-cap25/imagens/back-tv.jpg);
+    }
+    
+    img#tv {
+        display: block;
+    }
+    
+    img#plone {
+        display: none;
+    }
+    
+}
