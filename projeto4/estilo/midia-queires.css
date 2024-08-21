@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw;
+        height: 380px;
+    }
+
+    section#login > div#imagem {
+        background: url('/projeto4/img/⛧.jpeg');
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: top center;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 90%;
+        height: 40px;
+        margin-top: 10px;
+        margin: auto;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    form > a {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 90%;
+        height: 40px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 10px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 990px;
+        height: 350px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 90%;
+        height: 40px;
+        margin-top: 10px;
+        margin: auto;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    form > a {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 90%;
+        height: 40px;
+        padding-top: 10px;
+        margin: auto;
+        margin-top: 10px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
