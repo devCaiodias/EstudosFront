@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+label#txano {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+p.csx {
+    padding: 0px 8px 20px 0px;
+}
+
+p.csx > label {
+    padding: 0px 5px;
+}
+
+form > input[type=submit] {
+    padding: 5px;
+    margin: 6px 0px;
+}
+
+div#res {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 20px 0px;
+    
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0px;
+}

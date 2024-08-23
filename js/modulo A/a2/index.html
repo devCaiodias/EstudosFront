@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+    <title>Validador de idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main class="container">
+        <section>
+            <div>
+                    <p>
+                        <label id="txano" for="iano">Ano de Nacimento:</label>
+                        <input type="number" name="ano" id="iano">
+                    </p>
+                    <p class="csx">
+                        Sexo: 
+                        <label for="im">Masculino</label>
+                        <input type="radio" name="sx" id="im">
+                        <label for="if">Feminino</label>
+                        <input type="radio" name="sx" id="if">
+                    </p>
+                    <input type="submit" value="Verifica" onclick="verificar()">
+            </div>
+            <div id="res">
+                <p>prencha os dados acima para ver o resultado</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@DevYuta</p>
+    </footer>
+</body>
+</html>
